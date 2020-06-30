@@ -41,8 +41,7 @@ public class InsertData {
 		tx.commit();
 		session.close();
 
-		// commit trsaction
-		// close session
+		System.out.println("inserted two recordd");
        System.out.println("inserted successfully");
 	}
 
